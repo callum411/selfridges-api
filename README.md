@@ -13,8 +13,8 @@ selfridges.GetProductDetails(url, stock, (data) => {
 });
 ```
 
-# Params
-**url (*string*)**: URL of the product you are fetching data from
-**stock (*boolean*)**: true/false depending on if you want to return stock data
-**data (*object*)**: retrieved data
-
+Name | Type | Description | Example
+------------ | ------------- | ------------- | -------------
+url | string | URL of the product you are fetching data from | https://www.endclothing.com/gb/off-white-long-sleeve-diagonal-camo-tee-omab001s188780129901.html
+stock | boolean | true/false depending on if you want to return stock data | true
+data | object | retrieved data | N/A
