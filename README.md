@@ -14,7 +14,7 @@ selfridges.GetProductDetails(url, stock, (data) => {
 ```
 
 # Params
-```
+```js
 url (string): URL of the product you are fetching data from
 stock (boolean): true/false depending on if you want to return stock data
 data (object): retrieved data
