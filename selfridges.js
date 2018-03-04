@@ -33,7 +33,7 @@ var Functions = {
                     Functions.GetStockDetails(url, ConstructedURL, callback);
                 } 
             } else {
-                Functions.Log("Failed to get " + product.url);
+                callback(null);
             }
         })
     },
