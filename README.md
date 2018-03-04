@@ -8,7 +8,7 @@ An unofficial NodeJS API for http://www.selfridges.com
 
 ### Usage
 ```js
-const selfridges = require("selfridges-api");
+const selfridges = require("./selfridges.js");
 
 selfridges.GetProductDetails(url, stock, (data) => {
   //console.log(data);
