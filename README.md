@@ -13,7 +13,7 @@ selfridges.GetProductDetails(url, stock, (data) => {
 });
 ```
 
-#Params
+# Params
 Name | Type | Description | Example
 ------------ | ------------- | ------------- | -------------
 url | string | url of the product you are fetching data from | http://www.selfridges.com/GB/en/cat/off-white-c-o-virgil-abloh-camo-print-cotton-jersey-top_436-3003613-OMAB001S18878012
