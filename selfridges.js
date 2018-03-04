@@ -23,7 +23,7 @@ var Functions = {
                     ProductTitle: x("input[name='productTitle']").attr("value"),
                     ProductBrand: x("input[name='productBrand']").attr("value"),
                     ProductDesc: x("#main > div.itemScopeMain > div.infoBlock > ul.infoBlockTabContent > li.sel > div > div > div > p.hiddenDescription").html().replace(/\n|\r\n|\r|\t/g, ""),
-                    Images: x("meta[property='og:image']").attr("content")
+                    Image: x("meta[property='og:image']").attr("content")
                 };
 
                 if (stock == false) {
