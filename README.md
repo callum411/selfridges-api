@@ -2,7 +2,9 @@
 An unofficial NodeJS API for http://www.selfridges.com
 
 ### Installation
-`npm install selfridges-api`
+1. Download [selfridges.js](selfridges.js)
+2. Copy the file to your node directory
+3. `const selfridges = require("./selfridges.js");`
 
 ### Usage
 ```js
