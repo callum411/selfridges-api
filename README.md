@@ -5,7 +5,7 @@ An unofficial NodeJS API for http://www.selfridges.com
 `npm install selfridges-api`
 
 # Usage
-```
+```js
 const selfridges = require("selfridges-api");
 
 selfridges.GetProductDetails(url, stock, (data) => {
